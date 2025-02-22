@@ -1,1 +1,28 @@
+# Wikipedia Page View Forecasting for AdEase
+
+## Overview
+
+This project focuses on forecasting Wikipedia page views to optimize ad placement strategies for AdEase clients. By considering regional and linguistic variations, we aim to enhance the effectiveness of advertising campaigns. The project utilizes advanced time series forecasting models to predict page view trends, enabling better return on investment (ROI) and targeted advertising.
+
+## Technologies Used
+
+- **Programming Language**: Python
+- **Libraries**: 
+  - Pandas
+  - NumPy
+  - Statsmodels (for ARIMA and SARIMAX)
+  - Facebook Prophet
+  - Matplotlib (for visualization)
+- **Data Sources**: Wikipedia page view data, exogenous campaign data
+
+## Dataset
+
+The dataset consists of historical Wikipedia page view data, along with additional campaign data that provides context for the advertising strategies. The data is segmented by region and language to account for variations in user behavior.
+
+## Installation
+
+To run this project, you need to have Python installed along with the required libraries. You can install the necessary packages using pip:
+
+```bash
+pip install pandas numpy statsmodels fbprophet matplotlib
 
