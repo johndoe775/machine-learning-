@@ -1,1 +1,25 @@
+dataset link https://drive.google.com/file/d/1clZX-lV_MLxKHSyeyTheX5OCQtNCUcqT/view?usp=sharing
+# Produce Image Classification
 
+## Overview
+
+This project aims to identify various types of produce, specifically onions, potatoes, tomatoes, and noise in images of these vegetables. By leveraging advanced machine learning techniques, I have developed a robust and accurate classification model that can effectively distinguish between these categories.
+
+## Technologies Used
+
+- **Deep Learning Frameworks**: TensorFlow, Keras
+- **Transfer Learning Models**: VGG16, ResNet50
+- **Data Augmentation Techniques**: Random rotations, shifts, flips, and zooms
+- **Regularization Techniques**: Dropout, L2 regularization
+- **Callbacks**: Early stopping, model checkpointing
+
+## Dataset
+
+The dataset consists of images of onions, potatoes, tomatoes, and noise. The images were collected from various sources to ensure diversity and robustness in the training process. The dataset is split into training, validation, and test sets.
+
+## Installation
+
+To run this project, you need to have Python installed along with the required libraries. You can install the necessary packages using pip:
+
+```bash
+pip install tensorflow keras numpy pandas matplotlib
